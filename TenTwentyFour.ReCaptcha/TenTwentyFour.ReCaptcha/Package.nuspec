@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>TenTwentyFour.ReCaptcha</id>
+    <version>1.0.0</version>
+    <authors>Ed Carter</authors>
+    <owners>10/24 Design</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Integration with Google's ReCaptcha Service</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>google, recaptcha</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.Mvc" version="5.2.7" />
+      <dependency id="Microsoft.AspNet.Razor" version="3.2.7" />
+      <dependency id="Microsoft.AspNet.WebApi.Client" version="5.2.7" />
+      <dependency id="Microsoft.AspNet.WebPages" version="3.2.7" />
+      <dependency id="Microsoft.Web.Infrastructure" version="1.0.0.0" />
+      <dependency id="Newtonsoft.Json" version="12.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\release\*.dll" target="lib\net461" />
+    <file src="*.xdt" target="content" />
+  </files>
+</package>
